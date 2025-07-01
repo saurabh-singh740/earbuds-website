@@ -1,0 +1,139 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #1e2a3a;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff7f50;
+}
+
+/* About Section */
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+    background: linear-gradient(135deg, #34e89e, #0f3443);
+    color: white;
+}
+
+.about-us .about-content {
+    width: 60%;
+}
+
+.about-us h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.about-us h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.about-us ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.about-us ul li {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.about-us .about-image img {
+    width: 100%;
+    max-width: 550px;
+    border-radius: 10px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #1e2a3a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-us {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .about-us .about-content {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .about-us .about-image img {
+        width: 80%;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+}
