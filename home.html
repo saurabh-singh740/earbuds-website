@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Earbuds Store</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">EarbudsStore</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Premium Earbuds for the Ultimate Sound Experience</h1>
+            <p>Discover the latest in sound technology with our top-quality earbuds, designed for comfort and excellent audio quality.</p>
+            <a href="#products" class="btn-primary">Shop Now</a>
+        </div>
+    </section>
+    <section id="products" class="product-section">
+        <h2>Our Products</h2>
+    
+        <div class="product-category">
+            <h3>Boat</h3>
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="./images/earbuds1.webp" alt="Earbuds Model 1">
+                    <h3>Model A1</h3>
+                    <p>High-fidelity sound, noise-cancellation, wireless</p>
+                    <p class="price">$129.99</p>
+                    <button class="btn-secondary" onclick="addToCart('Model A1', 129.99)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/earbuds2.jpeg" alt="Earbuds Model 2">
+                    <h3>Model B2</h3>
+                    <p>Comfort fit, long battery life, superior sound</p>
+                    <p class="price">$149.99</p>
+                    <button class="btn-secondary" onclick="addToCart('Model B2', 149.99)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/earbuds3.webp" alt="Earbuds Model 3">
+                    <h3>Model C3</h3>
+                    <p>Waterproof, bass boost, Bluetooth 5.0</p>
+                    <p class="price">$99.99</p>
+                    <button class="btn-secondary" onclick="addToCart('Model C3', 99.99)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/earbuds4.jpeg" alt="Earbuds Model 4">
+                    <h3>Model D4</h3>
+                    <p>In-ear design, wireless charging, superior bass</p>
+                    <p class="price">$139.99</p>
+                    <button class="btn-secondary" onclick="addToCart('Model D4', 139.99)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/earbuds5.jpeg" alt="Earbuds Model 5">
+                    <h3>Model E5</h3>
+                    <p>Ultra-lightweight, noise isolation, waterproof</p>
+                    <p class="price">$89.99</p>
+                    <button class="btn-secondary" onclick="addToCart('Model E5', 89.99)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/earbuds6.jpeg" alt="Earbuds Model 6">
+                    <h3>Model F6</h3>
+                    <p>360° sound, quick charge, Bluetooth 5.1</p>
+                    <p class="price">$119.99</p>
+                    <button class="btn-secondary" onclick="addToCart('Model F6', 119.99)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="product-category">
+            <h3>One Plus</h3>
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="./images/earbuds7.jpeg" alt="Earbuds Model 7">
+                    <h3>Model G7</h3>
+                    <p>Long battery life, touch control, ergonomic design</p>
+                    <p class="price">$109.99</p>
+                    <button class="btn-secondary" onclick="addToCart('Model G7', 109.99)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/earbuds8.jpeg" alt="Earbuds Model 8">
+                    <h3>Model H8</h3>
+                    <p>Dual driver, noise reduction, wireless connectivity</p>
+                    <p class="price">$139.99</p>
+                    <button class="btn-secondary" onclick="addToCart('Model H8', 139.99)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/earbuds9.jpeg" alt="Earbuds Model 9">
+                    <h3>Model I9</h3>
+                    <p>Compact case, premium sound, active noise canceling</p>
+                    <p class="price">$169.99</p>
+                    <button class="btn-secondary" onclick="addToCart('Model I9', 169.99)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/earbuds10.jpeg" alt="Earbuds Model 10">
+                    <h3>Model J10</h3>
+                    <p>High-end sound, wireless, sweatproof</p>
+                    <p class="price">$89.99</p>
+                    <button class="btn-secondary" onclick="addToCart('Model J10', 89.99)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/earbuds11.jpeg" alt="Earbuds Model 11">
+                    <h3>Model K11</h3>
+                    <p>Sound balance, noise isolation, long-lasting battery</p>
+                    <p class="price">$79.99</p>
+                    <button class="btn-secondary" onclick="addToCart('Model K11', 79.99)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/earbuds12.jpeg" alt="Earbuds Model 12">
+                    <h3>Model L12</h3>
+                    <p>High-resolution sound, bass boost, waterproof</p>
+                    <p class="price">$109.99</p>
+                    <button class="btn-secondary" onclick="addToCart('Model L12', 109.99)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="product-category">
+            <h3>Apple</h3>
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="./images/earbuds13.webp" alt="Earbuds Model 13">
+                    <h3>Model M13</h3>
+                    <p>Comfortable fit, enhanced bass, noise-cancellation</p>
+                    <p class="price">$119.99</p>
+                    <button class="btn-secondary" onclick="addToCart('Model M13', 119.99)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/earbuds14.jpeg" alt="Earbuds Model 14">
+                    <h3>Model N14</h3>
+                    <p>Wireless, sweat-resistant, deep bass</p>
+                    <p class="price">$149.99</p>
+                    <button class="btn-secondary" onclick="addToCart('Model N14', 149.99)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/earbuds15.jpeg" alt="Earbuds Model 15">
+                    <h3>Model O15</h3>
+                    <p>In-ear comfort, touch-sensitive, dynamic sound</p>
+                    <p class="price">$129.99</p>
+                    <button class="btn-secondary" onclick="addToCart('Model O15', 129.99)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/earbuds16.jpeg" alt="Earbuds Model 15">
+                    <h3>Model O15</h3>
+                    <p>In-ear comfort, touch-sensitive, dynamic sound</p>
+                    <p class="price">$129.99</p>
+                    <button class="btn-secondary" onclick="addToCart('Model O15', 129.99)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/earbuds17.jpeg" alt="Earbuds Model 15">
+                    <h3>Model O15</h3>
+                    <p>In-ear comfort, touch-sensitive, dynamic sound</p>
+                    <p class="price">$129.99</p>
+                    <button class="btn-secondary" onclick="addToCart('Model O15', 129.99)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/earbuds18.jpg" alt="Earbuds Model 15">
+                    <h3>Model O15</h3>
+                    <p>In-ear comfort, touch-sensitive, dynamic sound</p>
+                    <p class="price">$129.99</p>
+                    <button class="btn-secondary" onclick="addToCart('Model O15', 129.99)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 EarbudsStore. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <button class="cart-btn" onclick="showCart()">🛒 View Cart</button>
+
+</body>
+</html>
